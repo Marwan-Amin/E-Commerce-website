@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Item view </title>
+    <link rel="stylesheet" href="../Library/bootstrap.min.css">
+
+</head>
+<body>
+  
+</nav><nav id="navBar" class="navbar navbar-expand-lg navbar-dark bg-dark ">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <strong><a class="navbar-brand" href="./home.html">ITI Shop</a></strong>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+      <li class="nav-item active mx-3">
+        <a class="nav-link" href="./home.html">Home </a>
+      </li>
+      <li class="nav-item dropdown mx-3">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+        </a>
+        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item text-light" href="../cvs/marwanCV.html">Marwan Amin</a>
+            <a class="dropdown-item text-light" href="../cvs/salmaCV.html">Salma</a>
+        </div>
+    </li>
+      <li class="nav-item dropdown mx-3">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Browse Products
+          </a>
+          <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item text-light" href="#">Labtops</a>
+              <a class="dropdown-item text-light" href="#">Printers</a>
+              <a class="dropdown-item text-light" href="#">Accessories</a>
+          </div>
+      </li>
+      
+      <li class="nav-item mx-3 lg">
+          <a class="nav-link" href="./contactUs.html">Contact us</a>
+      </li>
+    </ul>
+          
+   
+  </div>
+</nav>
+
+<div class="container">
+    <div class="card mt-5" style="max-width: 100%;">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+            <img id="viewImage" class="card-img" >
+        </div>
+        <div class="col-md-4">
+          <div class="card-body mt-5">
+            <p id="category" style="font-size: 15px; color: gray;"></p>
+            <h5 id="product-name" class="card-title"></h5>
+            <p  id="Description" class="card-text"></p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-body border  m-5" style="border-radius: 20px;">
+            <div class="col-md-12">
+              <h5 id="available" class="card-title"></h5>
+              <h6 id="availableWord" class="card-title"></h6>
+
+              <hr>
+              <h2  id="price" class="card-text"></h2>
+              <hr>
+              <p  id="quantityWord" class="card-text"></p>
+              <p  id="quantity" class="card-text" style = "border:solid 1px gainsboro;padding: 8px;border-radius: 20px;text-align: center;"></p>
+              <button type="button" class="btn btn-secondary btn-lg btn-block" >Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="container-fluid" >
+  <div class="row mt-5"></div>
+  <div class="row mt-5"></div>
+  <div class="row mt-5"></div>
+
+</div>
+ <!-- Footer -->
+ <footer class="page-footer font-small blue pt-4" style="position: absolute; left: 0; bottom: 0; width: 100%;">
+
+  <div class="container-fluid " style="background-color:black">
+
+  <div class="footer-copyright text-center py-3 text-light" style="background-color:black">Copyright ©2019 All Rights Reserved
+    | This Template is made with ♡
+    <a href="https://mdbootstrap.com/education/bootstrap/" class="text-light" style="text-decoration: underline"> colorlib</a>
+  </div>
+
+</footer>
+      <script src="../Library/jquery.js"></script>
+      <script src="../Library/popper.min.js"></script>
+      <script src="../Library/bootstrap.min.js"></script>
+      <script src="../Script/view.js"></script>
+</body>
+</html>

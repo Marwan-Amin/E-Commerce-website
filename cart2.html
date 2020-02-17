@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Cart </title>
+
+    <link rel="stylesheet" href="/Library/bootstrap.min.css">
+
+</head>
+<body>  
+</nav><nav id="navBar" class="navbar navbar-expand-lg navbar-dark bg-dark ">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <strong><a class="navbar-brand" href="/Pages/home.html">ITI Shop</a></strong>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+      <li class="nav-item active mx-3">
+        <a class="nav-link" href="/Pages/home.html">Home </a>
+      </li>
+      <li class="nav-item dropdown mx-3">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+        </a>
+        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item text-light" href="/cvs/marwanCV.html">Marwan Amin</a>
+            <a class="dropdown-item text-light" href="/cvs/salmaCV.html">Salma</a>
+        </div>
+    </li>
+      <li class="nav-item dropdown mx-3">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Browse Products
+          </a>
+          <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item text-light" href="#">Labtops</a>
+              <a class="dropdown-item text-light" href="#">Printers</a>
+              <a class="dropdown-item text-light" href="#">Accessories</a>
+          </div>
+      </li>
+      
+      <li class="nav-item mx-3 lg">
+          <a class="nav-link" href="/Pages/contactUs.html">Contact us</a>
+      </li>
+    </ul>
+          <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2 bg-transparent d-none d-lg-block" type="search" placeholder="Search for product" aria-label="Search">
+          </form>
+   
+  </div>
+</nav>
+
+    <div id="cart" class= "container mt-5">
+        <div class="row">
+            <div class="col-5">
+                <h4>Product</h4>
+            </div>
+            <div class="col-2">
+                <h4>Price</h4>
+            </div>
+            <div class="col-2">
+                <h4>Quantity</h4>
+            </div>
+            <div class="col-2">
+                <h4>Total</h4> 
+            </div>
+            <div class="col-1">
+                <h4>Remove</h4> 
+            </div>     
+
+        </div>
+        <hr>
+    </div>
+    <div id="cart" class= "container mt-1" style="float: right; max-width:30%;" ></div>
+
+       
+  
+    <div id="cart" class= "container mt-5" style="float: right; max-width:30%;" >
+        
+    </div>
+    <div id="cartTotal" class= "container mt-5" style="float: right; max-width:30%;" >
+        <div class="row" >
+            <div class="col-12">
+                <h4>Final Receipt</h4>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-6">
+                <h3>Total:</h3>
+            </div>
+            <div class="col-6">
+                <h3 id="total-price"></h3>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+      <footer class="page-footer font-small blue pt-4" >
+
+        <div class="container-fluid " style="background-color:black">
+      
+        <div class="footer-copyright text-center py-3 text-light" style="background-color:black">Copyright ©2019 All Rights Reserved
+          | This Template is made with ♡
+          <a href="https://mdbootstrap.com/education/bootstrap/" class="text-light" style="text-decoration: underline"> colorlib</a>
+        </div>
+      </footer>
+      
+
+    
+    
+
+<script src="/Library/jquery.js"></script>
+<script src="/Library/popper.min.js"></script>
+<script src="/Library/bootstrap.min.js"></script> 
+<script src="/cart2.js" ></script>
+</body>
+</html>
